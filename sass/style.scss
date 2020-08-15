@@ -12,3 +12,82 @@ $theme-color:#edecd8;
     color:#333;
 }
 
+.header{
+    .row{
+        justify-content: space-between;
+        align-items: center;
+    .logo-area{
+        width: 100%;
+        padding: 15px;
+    }
+    .nav{
+        list-style: none;
+        ul{
+            li{
+                a{
+                    @extend %common-font;
+                    text-transform: capitalize;
+                    padding:0px 25px 0px 0px;
+
+                }
+            }
+        }
+    }
+
+    .contact{
+        a{
+            
+            background:blue;
+            color:#fff;
+            padding:10px 27px 10px 27px;
+            text-transform: capitalize;
+            text-decoration:none;
+            border-radius: 5px;
+            &:hover{
+                background: #fff;
+                color:blue;
+                border:2px solid blue;
+            }
+           
+           span{
+               font-size: 20px;
+           }
+
+        }
+    }
+    }
+}
+
+.container{
+    .row{
+        h1{
+            font-size: 40px;
+            font-family:'Ubuntu', sans-serif;
+            font-weight: bold;
+            color:black;
+            line-height:1.2;
+
+        }
+        .lead{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        a{
+            
+            text-transform: capitalize;
+            text-decoration:none;
+            padding: 10px;
+            border-bottom:2px solid blue;
+            font-size: 20px;
+            
+           
+        }
+    
+        .img{
+            
+
+        }
+    
+    }
+
+}

@@ -3,6 +3,12 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -45,5 +51,52 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+.header .row .nav ul li a {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333; }
+
+.header .row {
+  justify-content: space-between;
+  align-items: center; }
+  .header .row .logo-area {
+    width: 100%;
+    padding: 15px; }
+  .header .row .nav {
+    list-style: none; }
+    .header .row .nav ul li a {
+      text-transform: capitalize;
+      padding: 0px 25px 0px 0px; }
+  .header .row .contact a {
+    background: blue;
+    color: #fff;
+    padding: 10px 27px 10px 27px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 5px; }
+    .header .row .contact a:hover {
+      background: #fff;
+      color: blue;
+      border: 2px solid blue; }
+    .header .row .contact a span {
+      font-size: 20px; }
+
+.container .row h1 {
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: black;
+  line-height: 1.2; }
+.container .row .lead {
+  margin-top: 20px;
+  margin-bottom: 30px; }
+.container .row a {
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 10px;
+  border-bottom: 2px solid blue;
+  font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */
