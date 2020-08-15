@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import "_reset";
+$theme-color:#edecd8;
+%equal-hight{
+    display: flex;
+    flex-wrap: wrap;
+}
+%common-font{
+    font-family:'Ubuntu', sans-serif;
+    font-size:18px;
+    line-height:1.5;
+    color:#333;
+}
+
